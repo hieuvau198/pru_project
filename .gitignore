@@ -1,0 +1,95 @@
+# =============== #
+# Unity Generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# ===================== #
+# Unity Cache & Exports #
+# ===================== #
+MemoryCaptures/
+*.bak
+*.unitypackage
+
+# =========== #
+# OS & Editor #
+# =========== #
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.ncb
+*.cache
+*.log
+*.swp
+*.lock
+*.tmp
+*.gid
+*.sln.docstates
+
+# =========== #
+# VS/JetBrains #
+# =========== #
+.vs/
+.idea/
+*.iml
+
+# ==================== #
+# Unity Collaborate    #
+# ==================== #
+.Collab/
+.CollabIgnore
+
+# =============== #
+# Game Builds #
+# =============== #
+*.apk
+*.aab
+*.ipa
+*.exe
+*.app
+*.xcodeproj/
+*.xcworkspace/
+
+# ======================== #
+# Unity Plugin Exclusions #
+# ======================== #
+Assets/Plugins/*/Android/libs/
+Assets/Plugins/*/iOS/*.projmods
+Assets/Plugins/*/iOS/*.a
+Assets/Plugins/*/iOS/*.so
+Assets/Plugins/*/iOS/*.bundle
+Assets/Plugins/*/iOS/*.framework
+Assets/Plugins/*/iOS/*.dll
+
+# ==================== #
+# Unity Addressables  #
+# ==================== #
+Assets/AddressableAssetsData/*.bin
+Assets/StreamingAssets/*.json
+
+# ========================= #
+# Rider and JetBrains Cache #
+# ========================= #
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/workspace.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+
+# =============== #
+# Unity Packages #
+# =============== #
+Packages/manifest.json.meta
+Packages/packages-lock.json
+Packages/*.unitypackage
