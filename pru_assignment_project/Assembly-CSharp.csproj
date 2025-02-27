@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\PlayerAnimEvent.cs" />
+    <Compile Include="Assets\Entity.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
