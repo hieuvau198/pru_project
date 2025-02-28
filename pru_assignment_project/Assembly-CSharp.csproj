@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\Enemy_Skeleton.cs" />
     <Compile Include="Assets\PlayerAnimEvent.cs" />
     <Compile Include="Assets\Entity.cs" />
   </ItemGroup>
