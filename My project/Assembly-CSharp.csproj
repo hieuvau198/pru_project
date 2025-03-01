@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\PlayerMoveState.cs" />
+    <Compile Include="Assets\PlayerGroundedState.cs" />
     <Compile Include="Assets\PlayerState.cs" />
     <Compile Include="Assets\PlayerIdleState.cs" />
     <Compile Include="Assets\PlayerStateMachine.cs" />
