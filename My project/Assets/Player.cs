@@ -1,7 +1,12 @@
+using System.Collections;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Attack details")]
+    public Vector2[] attackMovement;
+
+    public bool isBusy { get; private set; }
     [Header("Move Info")]
     public float moveSpeed = 12f;
     public float jumpForce;
@@ -40,7 +45,7 @@ public class Player : MonoBehaviour
     public PlayerWallJumpState wallJump { get; private set; }
     public PlayerDashState dashState { get; private set; }
     
-    public PlayerPrimaryAttack primaryAttack { get; private set; }
+    public PlayerPrimaryAttackState primaryAttack { get; private set; }
     #endregion
 
 
@@ -56,7 +61,7 @@ public class Player : MonoBehaviour
         wallSlide = new PlayerWallSlideState(this, stateMachine, "WallSlide");
         wallJump = new PlayerWallJumpState(this, stateMachine, "Jump");
 
-        primaryAttack = new PlayerPrimaryAttack(this, stateMachine, "Attack");
+        primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
     }
 
     private void Start()
@@ -70,6 +75,15 @@ public class Player : MonoBehaviour
     {
         stateMachine.currentState.Update();
         CheckForDashInput();
+    }
+
+    public IEnumerable BusyFor(float _seconds)
+    {
+        isBusy = true;
+
+        yield return new WaitForSeconds(_seconds);
+
+        isBusy = false;
     }
 
 
@@ -94,12 +108,17 @@ public class Player : MonoBehaviour
         }    
     }
 
+    #region Velocity
+    public void ZeroVelocity() => rb.linearVelocity = new Vector2(0, 0);
+
     public void SetVelocity(float _xVelocity, float _yVelocity)
     {
         rb.linearVelocity = new Vector2 (_xVelocity, _yVelocity);
         FlipController(_xVelocity);
     }
+    #endregion
 
+    #region Collision
     public bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
     public bool IsWallDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
 
@@ -108,7 +127,9 @@ public class Player : MonoBehaviour
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
         Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
     }
+    #endregion
 
+    #region Flip
     public void Flip()
     { 
         facingDir = facingDir * -1;
@@ -123,4 +144,5 @@ public class Player : MonoBehaviour
         else if (_x < 0 && facingRight)
             Flip();
     }
+    #endregion
 }
