@@ -16,6 +16,8 @@ public class SkeletonAttackState : EnemyState
     public override void exit()
     {
         base.exit();
+
+        enemy.lastTimeAttacked = Time.time;
     }
 
     public override void Update()

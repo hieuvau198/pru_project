@@ -22,24 +22,25 @@ public class SkeletonBattleState : EnemyState
     {
         base.Update();
 
-        // Check if the player is detected
-        RaycastHit2D playerHit = enemy.IsPlayerDetected();
-
-        if (playerHit)
+        if (enemy.IsPlayerDetected())
         {
-            float playerDistance = playerHit.distance;
-            Debug.Log($"[Player Detection] Player detected at distance: {playerDistance}, Attack Distance: {enemy.attackDistance}");
+            stateTimer = enemy.battleTime;
 
-            // If player is within attack range, change to attack state
-            if (playerDistance < enemy.attackDistance)
+            if (enemy.IsPlayerDetected().distance < enemy.attackDistance)
             {
-                Debug.Log("[State Change] Switching to Attack State");
-                stateMachine.ChangeState(enemy.attackState);
-                return; // Stop movement if attacking
+                if(CanAttack())
+                    stateMachine.ChangeState(enemy.attackState);
+            }
+        }
+        else
+        {
+            if(stateTimer < 0 
+                || Vector2.Distance(player.transform.position, enemy.transform.position) > 3)
+            {
+                stateMachine.ChangeState(enemy.idleState);
             }
         }
 
-        // Determine movement direction based on player's position
         if (player.position.x > enemy.transform.position.x)
         {
             moveDir = 1;
@@ -49,16 +50,9 @@ public class SkeletonBattleState : EnemyState
             moveDir = -1;
         }
 
-        // WARNING: You are overriding moveDir with "moveDir = 1;" -> Removing it
-        // moveDir = 1;  <-- This line was forcing the enemy to always move right. Removed!
-
-        // Set velocity based on move direction
         float velocityX = enemy.moveSpeed * moveDir;
-        float velocityY = rb.linearVelocity.y; // Using linearVelocity.y for compatibility
+        float velocityY = rb.linearVelocity.y; 
 
-        Debug.Log($"[Movement] MoveDir: {moveDir}, Calculated VelocityX: {velocityX}, Current LinearVelocity: ({rb.linearVelocity.x}, {rb.linearVelocity.y})");
-
-        // Apply movement
         enemy.SetVelocity(velocityX, velocityY);
     }
 
@@ -68,5 +62,14 @@ public class SkeletonBattleState : EnemyState
         base.exit();
     }
 
+    private bool CanAttack()
+    {
+        if(Time.time >= enemy.lastTimeAttacked + enemy.attackCooldown)
+        {
+            enemy.lastTimeAttacked = Time.time;
+            return true;
+        }
+        return false;
+    }
 }
 
