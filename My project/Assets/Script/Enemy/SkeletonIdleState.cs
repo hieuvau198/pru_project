@@ -8,14 +8,6 @@ public class SkeletonIdleState : SkeletonGroundedState
 
 
 
-    //#region States
-    //public SkeletonIdleState idleState { get; private set; }
-    //public SkeletonMoveState moveState { get; private set; }
-
-    //#endregion
-
-
-
     public override void Enter()
     {
         base.Enter();

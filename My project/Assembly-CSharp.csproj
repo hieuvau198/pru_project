@@ -62,27 +62,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Player\PlayerIdleState.cs" />
+    <Compile Include="Assets\Script\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Script\Enemy\SkeletonMoveState.cs" />
     <Compile Include="Assets\Script\Player\PlayerMoveState.cs" />
-    <Compile Include="Assets\Enemy_Skeleton.cs" />
-    <Compile Include="Assets\Enemy.cs" />
+    <Compile Include="Assets\Script\Enemy\SkeletonAttackState.cs" />
+    <Compile Include="Assets\Script\Enemy\Enemy_Skeleton.cs" />
+    <Compile Include="Assets\Script\Enemy\SkeletonIdleState.cs" />
+    <Compile Include="Assets\Script\Enemy\Entity.cs" />
     <Compile Include="Assets\Script\Player\PlayerGroundedState.cs" />
+    <Compile Include="Assets\Script\Enemy\EnemyState.cs" />
     <Compile Include="Assets\Script\Player\PlayerAnimationTriggers.cs" />
-    <Compile Include="Assets\SkeletonMoveState.cs" />
-    <Compile Include="Assets\SkeletonGroundedState.cs" />
-    <Compile Include="Assets\SkeletonBattleState.cs" />
     <Compile Include="Assets\Script\Player\PlayerDashState.cs" />
     <Compile Include="Assets\Script\Player\PlayerState.cs" />
     <Compile Include="Assets\Script\Player\PlayerWallSlideState.cs" />
-    <Compile Include="Assets\EnemyStateMachine.cs" />
+    <Compile Include="Assets\Script\Enemy\SkeletonGroundedState.cs" />
     <Compile Include="Assets\Script\Player\PlayerPrimaryAttackState.cs" />
     <Compile Include="Assets\Script\Player\PlayerJumpState.cs" />
-    <Compile Include="Assets\EnemyState.cs" />
+    <Compile Include="Assets\Script\Enemy\SkeletonBattleState.cs" />
     <Compile Include="Assets\Script\ParallaxBackground.cs" />
     <Compile Include="Assets\Script\Player\Player.cs" />
-    <Compile Include="Assets\Entity.cs" />
-    <Compile Include="Assets\SkeletonIdleState.cs" />
     <Compile Include="Assets\Script\Player\PlayerWallJumpState.cs" />
     <Compile Include="Assets\Script\Player\PlayerStateMachine.cs" />
+    <Compile Include="Assets\Script\Enemy\EnemyStateMachine.cs" />
     <Compile Include="Assets\Script\Player\PlayerAirState.cs" />
   </ItemGroup>
   <ItemGroup>

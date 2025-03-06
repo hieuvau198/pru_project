@@ -184,7 +184,7 @@ Transform:
   m_GameObject: {fileID: 122780699}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.384751, y: 3.26, z: -10}
+  m_LocalPosition: {x: 34.16525, y: 3.26, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -201,7 +201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148953220}
   - component: {fileID: 148953221}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BG_City_Layer (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 172726360}
   - component: {fileID: 172726362}
   - component: {fileID: 172726363}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BG_City_Layer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,7 +437,7 @@ Transform:
   m_GameObject: {fileID: 276831237}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66, y: -0.94, z: 0}
+  m_LocalPosition: {x: 0.64, y: -0.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -453,9 +453,8 @@ GameObject:
   m_Component:
   - component: {fileID: 370430747}
   - component: {fileID: 370430749}
-  - component: {fileID: 370430748}
   - component: {fileID: 370430750}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BG_Sky_layer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,18 +478,6 @@ Transform:
   - {fileID: 1669584993}
   m_Father: {fileID: 1168474255}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &370430748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370430746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f3976fc94f3f5944829442e19131ee7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &370430749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -569,7 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 406758495}
   - component: {fileID: 406758496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BG_Sky_layer (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +765,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.384751, y: 3.26, z: -10}
+  m_LocalPosition: {x: 34.16525, y: 3.26, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -898,7 +885,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -923,9 +910,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundCheck: {fileID: 276831238}
-  groundCheckDistance: 0.2
+  groundCheckDistance: 0.4
   wallCheck: {fileID: 275155132}
-  wallCheckDistance: 0.2
+  wallCheckDistance: 0.8
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
@@ -933,8 +920,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   moveSpeed: 1.5
-  idleTime: 2
-  attackDistance: 1.5
+  idleTime: 0
+  attackDistance: 1
 --- !u!4 &598056291
 Transform:
   m_ObjectHideFlags: 0
@@ -944,8 +931,8 @@ Transform:
   m_GameObject: {fileID: 598056287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.71, y: -0.62, z: 0}
-  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
+  m_LocalPosition: {x: 36.45, y: 1.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 745587416}
@@ -1195,7 +1182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1168474255}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11730,7 +11717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1669584993}
   - component: {fileID: 1669584994}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BG_Sky_layer(2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11863,7 +11850,7 @@ Transform:
   m_GameObject: {fileID: 1821177321}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.23, y: -0.69, z: 0}
+  m_LocalPosition: {x: 36.11, y: 5.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11946,7 +11933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962010345}
   - component: {fileID: 1962010346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BG_City_Layer (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

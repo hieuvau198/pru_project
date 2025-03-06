@@ -13,7 +13,7 @@ public class Entity : MonoBehaviour
     [SerializeField] protected float groundCheckDistance;
     [SerializeField] protected Transform wallCheck;
     [SerializeField] protected float wallCheckDistance;
-    [SerializeField] protected LayerMask whatIsGround;
+    [SerializeField] protected LayerMask whatIsGround; 
 
     public int facingDir { get; private set; } = 1;
     protected bool facingRight = true;
@@ -35,7 +35,7 @@ public class Entity : MonoBehaviour
 
     }
     #region Velocity
-    public void ZeroVelocity() => rb.linearVelocity = new Vector2(0, 0);
+    public void SetZeroVelocity() => rb.linearVelocity = new Vector2(0, 0);
 
     public void SetVelocity(float _xVelocity, float _yVelocity)
     {
