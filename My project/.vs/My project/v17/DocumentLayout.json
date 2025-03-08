@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspace\\github\\pru_project\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\workspace\\github\\pru_project\\my project\\assets\\script\\enemy\\skeletongroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\skeletongroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\workspace\\github\\pru_project\\my project\\assets\\script\\enemy\\skeletonbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\skeletonbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\workspace\\github\\pru_project\\my project\\assets\\script\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\workspace\\github\\pru_project\\My project\\assets\\script\\enemy\\skeletonattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\skeletonattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\workspace\\github\\pru_project\\my project\\assets\\script\\enemy\\enemy_skeletonanimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemy_skeletonanimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\workspace\\github\\pru_project\\My project\\assets\\script\\enemy\\enemystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\workspace\\github\\pru_project\\My project\\assets\\script\\enemy\\enemy_skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemy_skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\workspace\\github\\pru_project\\My project\\assets\\script\\enemy\\skeletonmovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\skeletonmovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\workspace\\github\\pru_project\\My project\\assets\\script\\enemy\\skeletonidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\skeletonidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\workspace\\github\\pru_project\\My project\\assets\\script\\enemy\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\workspace\\github\\pru_project\\My project\\assets\\script\\enemy\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SkeletonGroundedState.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonGroundedState.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\SkeletonGroundedState.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonGroundedState.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\SkeletonGroundedState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:54:20.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Enemy.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:32:03.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy_SkeletonAnimationTriggers.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\Enemy_SkeletonAnimationTriggers.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Enemy_SkeletonAnimationTriggers.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\Enemy_SkeletonAnimationTriggers.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\Enemy_SkeletonAnimationTriggers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:30:52.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyState.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\EnemyState.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyState.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\EnemyState.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemyState.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:06:41.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyStateMachine.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\EnemyStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyStateMachine.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\EnemyStateMachine.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemyStateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:55:41.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SkeletonBattleState.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonBattleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\SkeletonBattleState.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonBattleState.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\SkeletonBattleState.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:34:43.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SkeletonAttackState.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\SkeletonAttackState.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonAttackState.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\SkeletonAttackState.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:29:04.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy_Skeleton.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\Enemy_Skeleton.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Enemy_Skeleton.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\Enemy_Skeleton.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\Enemy_Skeleton.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:18:05.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\Entity.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Entity.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\Entity.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\Entity.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:12:31.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SkeletonMoveState.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonMoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\SkeletonMoveState.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonMoveState.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\SkeletonMoveState.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:06:42.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SkeletonIdleState.cs",
+              "DocumentMoniker": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonIdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\SkeletonIdleState.cs",
+              "ToolTip": "D:\\workspace\\github\\pru_project\\My project\\Assets\\Script\\Enemy\\SkeletonIdleState.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\SkeletonIdleState.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:06:33.097Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

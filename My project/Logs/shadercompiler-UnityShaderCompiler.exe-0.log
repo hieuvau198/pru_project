@@ -1,0 +1,4 @@
+Base path: 'D:/install/unity_editor/6000.0.32f1/Editor/Data', plugins path 'D:/install/unity_editor/6000.0.32f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: shutdown
