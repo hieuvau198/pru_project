@@ -5,9 +5,9 @@ public class SkeletonGroundedState : EnemyState
     protected Enemy_Skeleton enemy;
 
     protected Transform player;
-    public SkeletonGroundedState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, Enemy_Skeleton enemy) : base(enemyBase, stateMachine, animBoolName)
+    public SkeletonGroundedState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, Enemy_Skeleton _enemy) : base(enemyBase, stateMachine, animBoolName)
     {
-        this.enemy = enemy;
+        this.enemy = _enemy;
     }
 
     public override void Enter()

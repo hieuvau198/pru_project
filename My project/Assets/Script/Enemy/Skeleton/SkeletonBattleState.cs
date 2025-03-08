@@ -6,9 +6,9 @@ public class SkeletonBattleState : EnemyState
     private Transform player;
     private Enemy_Skeleton enemy;
     private int moveDir;
-    public SkeletonBattleState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, Enemy_Skeleton enemy) : base(enemyBase, stateMachine, animBoolName)
+    public SkeletonBattleState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, Enemy_Skeleton _enemy) : base(enemyBase, stateMachine, animBoolName)
     {
-        this.enemy = enemy;
+        this.enemy = _enemy;
 
     }
 

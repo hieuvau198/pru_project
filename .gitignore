@@ -5,3 +5,4 @@
 Packages/manifest.json.meta
 Packages/packages-lock.json
 Packages/*.unitypackage
+*.vsidx
